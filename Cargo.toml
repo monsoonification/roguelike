@@ -1,0 +1,8 @@
+[package]
+name = "rogue-like"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+# More features: "collisions", "complex_shapes", "immi_ui", "sounds", "gamepads"
+quicksilver = { version = "0.3.22", default-features = false, features = ["fonts", "saving"]}
